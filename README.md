@@ -1,5 +1,13 @@
 # D600-Task-3-Principal-Component-Analysis
+### Overview
 
+
+### Principal Component Analysis (PCA) + Regression
+-	Applied PCA to reduce dimensionality of a housing dataset from 14 variables to 10 principal components, retaining ~87% variance.
+-	Integrated PCA components into regression modeling to address multicollinearity and simplify the model.
+-	Conducted stepwise model optimization, achieving an R² of ~0.64 with balanced train/test performance.
+
+### Files
 1. README.md - A file describing other files in this repository.
 
 2. D600_Task3_Final.ipynb - A Jupyter Notebook file that contains the code for principal component analysis.
