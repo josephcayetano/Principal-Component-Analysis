@@ -1,6 +1,6 @@
 # D600-Task-3-Principal-Component-Analysis
 ### Overview
-
+This project combines Principal Component Analysis (PCA) with regression modeling to predict housing prices while addressing multicollinearity and dimensionality challenges. The analysis focuses on reducing feature space while retaining high variance, improving model interpretability and performance.
 
 ### Principal Component Analysis (PCA) + Regression
 -	Applied PCA to reduce dimensionality of a housing dataset from 14 variables to 10 principal components, retaining ~87% variance.
