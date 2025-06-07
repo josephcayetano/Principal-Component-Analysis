@@ -1,11 +1,11 @@
 # Principal Component Analysis
 ### Overview
-This project combines Principal Component Analysis (PCA) with regression modeling to predict housing prices while addressing multicollinearity and dimensionality challenges. The analysis focuses on reducing feature space while retaining high variance, improving model interpretability and performance.
+This project used Principal Component Analysis (PCA) with regression to predict housing prices. The goal was to reduce the number of features while keeping most of the important information. This helped improve model performance and made the results easier to understand.
 
 ### Principal Component Analysis (PCA) + Regression
--	Applied PCA to reduce dimensionality of a housing dataset from 14 variables to 10 principal components, retaining ~87% variance.
--	Integrated PCA components into regression modeling to address multicollinearity and simplify the model.
--	Conducted stepwise model optimization, achieving an R² of ~0.64 with balanced train/test performance.
+-	Used PCA to reduce 14 features down to 10 main components, keeping about 87% of the original data’s variation
+-	Built a regression model using these components to fix multicollinearity and make the model simpler
+-	Improved the model through stepwise optimization, reaching an R² of around 0.64 on both training and test sets
 
 ### Files
 1. README.md - A file describing other files in this repository.
